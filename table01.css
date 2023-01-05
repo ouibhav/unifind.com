@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url("FontsFree-Net-Gilroy-ExtraBold.ttf");
+}
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: Gilroy;
+
+
+}
+
+html,body{
+    
+    background-image: url("BG02-01.jpg"); 
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+.heading {
+    display: flex;
+    background-color: #232f3e;
+    box-shadow: 0px 1px 2px #232f3e;
+
+}
+
+
+
+.outer-wrapper {
+    
+    margin: 10px;
+    margin-top: 185px;
+    margin-left: 80px;
+    margin-right: 20px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.9);
+    max-width: 90%;
+    height: 544px;
+    
+
+    
+}
+.table-wrapper {
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: fit-content;
+    max-height: 66.4vh;
+    
+    margin-top: 22px;
+    
+    margin: 15px;
+    padding-bottom: 20px;
+    /* column-width: auto; */
+    
+}
+
+
+table {
+    
+    width: 100% ;
+    height: 3px;
+    
+    border-collapse: separate;
+    border-spacing: 0px;
+    padding-top: 13px;
+    
+        
+    
+}
+
+
+
+table th{
+    position: sticky; 
+    top: 0px;
+    
+    background-color: #133b5c;
+    color: rgb(241, 245, 179);
+    
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    outline: 0.7px solid black;
+    border: 1.5px solid black;
+    
+
+} 
+
+
+
+table th, table td {
+    
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+table td {
+    text-align: center;
+    
+    font-size: 18px;
+    border: 0.5px solid rgb(31, 60, 136);
+    padding-left: 20px;
+    background-color: rgba(31, 61, 136, 0.49);
+    color: white;
+    
+}
+table th{
+    position: sticky; 
+    top: 0px;
+    
+    background-color: rgb(31, 60, 136);
+    color: #F9DA55;
+    
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    outline: 0.7px solid black;
+    border: 1.5px solid black;
+    
+
+} 
+
+
+
+table th, table td {
+    
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+table tr:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+.rank{
+    align-items: center;
+    width: 100%;
+    height: 10px;
+    justify-content: center;
+   
+    align-content: center;
+    margin-left: 18px;
+}
+
+.search{
+    background: rgba(255, 255, 255, 0.584);
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin-left: 539px;
+}
+
+.search input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+   /* padding-top: 2px;
+   padding-left: 2px; */
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    margin-left: 1.5px;
+    margin-top: 1.5px;
+
+}
